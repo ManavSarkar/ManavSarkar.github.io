@@ -4,259 +4,1285 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
-    />
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-      crossorigin="anonymous"
-    ></script>
+    <title>Manav Sarkar - Developer</title>
 
-    <title>Manav Sarkar</title>
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/Logo.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-    <header>
-      <h1 class="mx-auto" style="width: fit-content;">Manav Sarkar</h1>
-      <div class="container-fluid bg-info">
-        <span class="h3">About Me</span>
-        <p class="text-dark">
-          I am a 20 year old student from India. I am a third year undergrad
-          persuing B. Tech on Information Technology at IIEST Shibpur. I am a
-          self taught programmer and a android developer. I am also contributor
-          to GSoC 2022 AOSSIE P2P Messaging Application. I am also a open source
-          enthusiast and a member of GDSC IIEST as App Lead.
-          <br />
-          <br />
-          You can follow me here:
-          <a href="https://linkedin.com/in/manavsarkar">Linkedin</a>
-        </p>
-      </div>
-      <!-- projects container -->
-      <div class="container-fluid bg-warning">
-        <span class="h3 my-4">Projects</span>
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="card m-2">
-              <div class="card-body">
-                <h5 class="card-title">P2P Messaging Application</h5>
-                <p class="card-header">
-                  <span class="badge text-bg-success">Flutter</span>
-                  <span class="badge text-bg-success">Dart</span>
-                </p>
-                <p class="card-text">
-                  This is a P2P messaging application which is developed using
-                  flutter and dart. It is a part of GSoC 2022 AOSSIE project.
-                </p>
-                <section>
-                  <a
-                    href="https://gitlab.com/aossie/p2p-messaging-flutter"
-                    class="btn btn-primary link"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-github"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-                      />
-                    </svg>
-                    Project Link
-                  </a>
-                  <a
-                    href="https://drive.google.com/file/d/1Egv-RhbZmwLcs0yskrFm4Ym8IX44D1qg/view?usp=sharing"
-                    class="btn btn-primary link"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-camera-video-fill"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5z"
-                      />
-                    </svg>
-                    Video Working Link
-                  </a>
-                </section>
-              </div>
-            </div>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="https://cdn.hashnode.com/res/hashnode/image/upload/v1653625921101/V8LD_U5v-.jpeg"
+              alt="Manav Sarkar"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Manav Sarkar">Manav Sarkar</h1>
+
+            <p class="title">Developer | Writer</p>
           </div>
-          <div class="col-sm-6">
-            <div class="card m-2">
-              <div class="card-body">
-                <h5 class="card-title">Super-Poll MERN Application</h5>
-                <p class="card-header">
-                  <span class="badge text-bg-success">React.js</span>
-                  <span class="badge text-bg-success">Node.js</span>
-                  <span class="badge text-bg-success">Express.js</span>
-                  <span class="badge text-bg-success">MongoDB</span>
-                  <span class="badge text-bg-success">Tailwind CSS</span>
-                </p>
-                <p class="card-text">
-                  This is a MERN application which is developed using React.js,
-                  Node.js, Express.js and MongoDB. It has features like creating
-                  polls, voting in polls, viewing results of polls and creating
-                  user accounts.
-                </p>
-                <section>
-                  <a
-                    href="https://github.com/ManavSarkar/super-poll"
-                    class="btn btn-primary link"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-github"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-                      />
-                    </svg>
-                    Project Link
-                  </a>
-                  <a
-                    href="https://super-poll.onrender.com"
-                    class="btn btn-primary link"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-window"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"
-                      />
-                      <path
-                        d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm13 2v2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zM2 14a1 1 0 0 1-1-1V6h14v7a1 1 0 0 1-1 1H2z"
-                      />
-                    </svg>
-                    Website
-                  </a>
-                </section>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card m-2">
-              <div class="card-body">
-                <h5 class="card-title">Online Code Editor</h5>
-                <p class="card-header">
-                  <span class="badge text-bg-success">Node.js</span>
-                  <span class="badge text-bg-success">Express.js</span>
-                  <span class="badge text-bg-success">
-                    Handlebars(view engine)
-                  </span>
-                  <span class="badge text-bg-success">API</span>
-                </p>
-                <p class="card-text">
-                  This is a online code editor which is developed using
-                  Express.js and Node.js. It has features like compiling code
-                  and is able to compile in multiple programming lanugages.
-                </p>
-                <section>
-                  <a
-                    href="https://github.com/ManavSarkar/Online-Code-Editor"
-                    class="btn btn-primary link"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-github"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-                      />
-                    </svg>
-                    Project Link
-                  </a>
-                  <a
-                    href="https://online-code-editor.onrender.com"
-                    class="btn btn-primary link"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-window"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"
-                      />
-                      <path
-                        d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm13 2v2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zM2 14a1 1 0 0 1-1-1V6h14v7a1 1 0 0 1-1 1H2z"
-                      />
-                    </svg>
-                    Website
-                  </a>
-                </section>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card m-2">
-              <div class="card-body">
-                <h5 class="card-title">LMS ECG Noise Filter Project</h5>
-                <p class="card-header">
-                  <span class="badge text-bg-success">Matlab</span>
-                  <span class="badge text-bg-success">LMS Algorithm</span>
-                  <span class="badge text-bg-success">College</span>
-                </p>
-                <p class="card-text">
-                  This is a project which is developed using MATLAB. It is a
-                  project which is developed for the course of College Mini
-                  Project. It helps to filter the noise of ECG.
-                </p>
-                <section>
-                  <a
-                    href="https://github.com/ManavSarkar/ECG-Noise-Filter-Adaptive-Algorithm"
-                    class="btn btn-primary link"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-github"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-                      />
-                    </svg>
-                    Project Link
-                  </a>
-                </section>
-              </div>
-            </div>
-          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
         </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:manavsarkar07@gmail.com" class="contact-link"
+                  >manavsarkar07@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+918276806276" class="contact-link"
+                  >+91 827 680 6276</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2002-07-14">July 14, 2002</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>
+                  Khardah, Kolkata, Pincode 700112, West Bengal, India
+                </address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/manav.sarkar.587"
+                class="social-link"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://twitter.com/manavsarkar07" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/manavsarkar07"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <!-- <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li> -->
+
+            <!-- <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li> -->
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I am Manav Sarkar, a passionate student currently pursuing my
+              degree in information technology. I reside in the vibrant city of
+              Kolkata, West Bengal, where I have the opportunity to immerse
+              myself in a rich cultural heritage while exploring the exciting
+              world of technology.
+            </p>
+
+            <p>
+              As an open source contributor, I find great satisfaction in
+              collaborating with the developer community and contributing to
+              projects that make a difference. My interests lie in creating
+              Android apps, web applications, and delving into the fascinating
+              field of machine learning.
+            </p>
+            <p>
+              I have gained valuable experience working with the Flutter
+              framework, Node.js, Python, and React JS, which has allowed me to
+              develop a diverse skill set. One of my notable achievements was
+              being selected as a participant in Google Summer of Code 2022,
+              where I worked with AOSSIE to develop an Open Peer Chat app.
+              Throughout my journey, I have undertaken several projects that
+              showcase my abilities and passion for technology. These include a
+              collaborative whiteboard app, a quiz app, an ECG noise removal
+              app, an image classification app, and a face prediction app. I am
+              constantly seeking new challenges and opportunities to expand my
+              knowledge and make a positive impact through my work in the
+              ever-evolving world of technology.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Content Writing</h4>
+
+                  <p class="service-item-text">
+                    Crafted clear, concise, and engaging content on various
+                    platforms such as GeeksforGeeks, TutorialsPoint,
+                    Dare2Compete, AllAboutFlutter (Personal Blog)
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    Nice, intuitive web applications such as Collaborative
+                    Whiteboard, Online Poll, etc.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">App Development</h4>
+
+                  <p class="service-item-text">
+                    Made apps such as Chat app, Quiz App, ECG Noise Removal App,
+                    etc.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/mentoring.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Teacher and Mentor</h4>
+
+                  <p class="service-item-text">
+                    Mentored students in various technologies such as Flutter,
+                    Android Development and also guided to Open Source
+                    Contributions.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Activities</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="https://user-images.githubusercontent.com/71887222/122573095-0989c000-d06c-11eb-90e8-4b279edb10f3.png"
+                      alt="geeksforgeeks"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    GeeksforGeeks
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Worked as Technical Content Writer at GeeksforGeeks for
+                      more than 2 years and wrote articles on various topics
+                      like Flutter, Android Development, Web Development, etc.
+                      Published more than 238 articles. Profile
+                      <a
+                        style="color: white; font-weight: 800"
+                        target="_blank"
+                        href="https://auth.geeksforgeeks.org/user/manavsarkar07/articles/"
+                        >Profile</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="https://user-images.githubusercontent.com/71887222/122573095-0989c000-d06c-11eb-90e8-4b279edb10f3.png"
+                      alt="upwork"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Upwork
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Worked as freelancer for fixing bugs and developing some
+                      functionality for the app. Received 5 star rating and
+                      completed the project successfully.
+
+                      <a
+                        style="color: white; font-weight: 800"
+                        target="_blank"
+                        href="https://www.upwork.com/freelancers/~015a67e42eac221351?mp_source=share"
+                        >Profile</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          <!-- <section class="clients">
+            <h3 class="h3 clients-title">Clients</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-1-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-2-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-3-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-4-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-5-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-6-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section> -->
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Indian Institute of Engineering Science and Technology,
+                  Shibpur
+                </h4>
+
+                <span>2020 — 2024</span>
+
+                <p class="timeline-text">
+                  Studying Bachelor of Technology in Information Technology. The
+                  course includes subjects like Data Structures, Algorithms,
+                  Operating Systems, Computer Networks, etc. Currently have a
+                  <b>CGPA of 8.75</b>.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Titagarh Anglo Vernacular High School
+                </h4>
+
+                <span>2018 — 2020</span>
+
+                <p class="timeline-text">
+                  Studied Science stream with subjects like Physics, Chemistry,
+                  Mathematics. Achieved <b>90%</b> in the Higher Secondary
+                  Examination(WBCHSE).
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Douglas Memorial Higher Secondary School, Barrackpore
+                </h4>
+
+                <span>2008 — 2018</span>
+
+                <p class="timeline-text">
+                  Studied upto class 10th with subjects like Mathematics,
+                  Computer Application, Physics, Chemistry, Biology, History,
+                  Geography, Literature, etc. Achieved <b>86.83%</b> in the ICSE
+                  Board Examination.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Google Summer of Code 2024, AOSSIE Mentor
+                </h4>
+
+                <span>April 2024 — Present</span>
+
+                <p class="timeline-text">
+                  Mentoring Open Peer Chat app development. The app is a secure
+                  and private chat app that allows users to communicate with
+                  each other without any third-party interference.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Google Summer of Code 2022, AOSSIE Contributor
+                </h4>
+
+                <span>June 2022 — September 2022</span>
+
+                <p class="timeline-text">
+                  Contributed to the development of an Open Peer Chat app. The
+                  app is a secure and private chat app that allows users to
+                  communicate with each other without any third-party
+                  interference. Implemented hybrid protocol for communication
+                  and also added end-to-end encryption. The Chat UI was also
+                  improved.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Flutter App development</h5>
+                  <data value="70">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Full Stack Web development</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Technical Content Writing</h5>
+                  <data value="90">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Machine Learning</h5>
+                  <data value="50">50%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>App Development</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Machine Learning</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Writing</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web Development</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web Development</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Machine Learning</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>App Development</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Writing</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="app development"
+              >
+                <a
+                  href="https://github.com/AOSSIE-Org/OpenPeerChat-flutter/tree/gsoc-2022"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://avatars.githubusercontent.com/u/38881995?s=200&v=4"
+                      alt="chat app"
+                      loading="lazy"
+                      width="200"
+                      height="150"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">GSoC 2022 AOSSIE OpenPeerChat</h3>
+
+                  <p class="project-category">App Development</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://github.com/ManavSarkar/collaborative-jamboard"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://i.ibb.co/J2rbqBL/image.png"
+                      alt="whiteboard app"
+                      loading="lazy"
+                      width="200"
+                      height="150"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Collaborative Jamboard App</h3>
+
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="app development"
+              >
+                <a
+                  href="https://github.com/ManavSarkar/Language-Translation-using-MLKit-in-Flutter"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/eQ7j390QAEs/upload/e4883c49d04aa83e9e684d5614e5d1b0.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+                      alt="Language Translation App using Google MLKit and Flutter app"
+                      loading="lazy"
+                      width="200"
+                      height="150"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Language Translation App using Google MLKit and Flutter
+                  </h3>
+
+                  <p class="project-category">App Development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://celeb-face-match.streamlit.app"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://i.ibb.co/tcR348d/image.png"
+                      alt="Celebrity Face Match App"
+                      loading="lazy"
+                      width="200"
+                      height="150"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Celebrity Face Match App</h3>
+
+                  <p class="project-category">Machine Learning</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="machine learning"
+              >
+                <a href="https://potato-leaf-disease-classify.streamlit.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://i.ibb.co/7Jt6fJR/image.png"
+                      alt="Potato Disease"
+                      loading="lazy"
+                      width="200"
+                      height="150"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Potato Disease classification</h3>
+
+                  <p class="project-category">Machine Learning</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://potato-leaf-disease-classify.streamlit.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://i.ibb.co/cc7gHbY/image.png"
+                      alt="video meet"
+                      loading="lazy"
+                      width="200"
+                      height="150"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Video Meet</h3>
+
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="writing"
+              >
+                <a
+                  href="https://auth.geeksforgeeks.org/user/manavsarkar07/articles"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://media.geeksforgeeks.org/wp-content/uploads/20210224040124/JSBinCollaborativeJavaScriptDebugging6.png"
+                      alt="gfg"
+                      loading="lazy"
+                      width="200"
+                      height="150"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Technical Content Writer GeeksforGeeks
+                  </h3>
+
+                  <p class="project-category">Writing</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="writing"
+              >
+                <a href="https://www.tutorialspoint.com/authors/manav-sarkar">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://seeklogo.com/images/T/tutorialspoint-logo-BBA8735A99-seeklogo.com.png"
+                      alt="tp"
+                      loading="lazy"
+                      width="200"
+                      height="150"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Technical Content Writer TutorialsPoint
+                  </h3>
+
+                  <p class="project-category">Writing</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="writing"
+              >
+                <a href="https://www.allaboutflutter.com">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://cdn.hashnode.com/res/hashnode/image/upload/v1700304875315/NXVhzrxB5.png?w=1000&h=250&fit=crop&crop=entropy&auto=compress,format&format=webp"
+                      alt="aaf"
+                      loading="lazy"
+                      width="200"
+                      height="150"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">AllAboutFlutter - Personal Blog</h3>
+
+                  <p class="project-category">Writing</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="machine learning"
+              >
+                <a
+                  href="https://github.com/ManavSarkar/Weight-Prediction-using-Machine-Learning"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://i.ibb.co/phYNm1L/Screenshot-2024-04-12-203108.png"
+                      alt="weight prediction"
+                      loading="lazy"
+                      width="200"
+                      height="150"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Weight Prediction using Machine Learning
+                  </h3>
+
+                  <p class="project-category">Machine Learning</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-1.jpg"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Design conferences in 2022
+                    </h3>
+
+                    <p class="blog-text">
+                      Veritatis et quasi architecto beatae vitae dicta sunt,
+                      explicabo.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-2.jpg"
+                      alt="Best fonts every designer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Best fonts every designer
+                    </h3>
+
+                    <p class="blog-text">
+                      Sed ut perspiciatis, nam libero tempore, cum soluta nobis
+                      est eligendi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                    <p class="blog-text">
+                      Excepteur sint occaecat cupidatat no proident, quis
+                      nostrum exercitationem ullam corporis suscipit.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-4.jpg"
+                      alt="UI interactions of the week"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      UI interactions of the week
+                    </h3>
+
+                    <p class="blog-text">
+                      Enim ad minim veniam, consectetur adipiscing elit, quis
+                      nostrud exercitation ullamco laboris nisi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-5.jpg"
+                      alt="The forgotten art of spacing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      The forgotten art of spacing
+                    </h3>
+
+                    <p class="blog-text">
+                      Maxime placeat, sed do eiusmod tempor incididunt ut labore
+                      et dolore magna aliqua.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-6.jpg"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                    <p class="blog-text">
+                      Optio cumque nihil impedit uo minus quod maxime placeat,
+                      velit esse cillum.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d230.01723196365717!2d88.39143003767514!3d22.717991374266994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1712931500282!5m2!1sen!2sin"
+                width="300"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <!-- <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form> -->
+          <!-- </section> -->
+        </article>
       </div>
-    </header>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
