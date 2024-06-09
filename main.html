@@ -8,8 +8,27 @@
 <body>
     <h1>Donate to Manav Sarkar</h1>
     <p>Click the button below to make a payment via UPI. ttt</p>
-    <a href="upi://8777890473@upi">
+    <a href="upi://pay?pa=8777890473@upi">
         <button>Pay Now!!</button>
     </a>
+
+    <button id="payButton">Pay with UPI</button>
+
+    <script>
+        document.getElementById('payButton').addEventListener('click', function() {
+            // Define UPI payment details
+            const upiID = '8777890473@upi';
+            const name = 'Rajeev Sarkar';
+            const note = 'Payment for XYZ';
+            const amount = '2.00'; // Optional
+            const currency = 'INR'; // Optional
+
+            // Create the UPI deep link
+            const upiLink = `upi://pay?pa=${encodeURIComponent(upiID)}&pn=${encodeURIComponent(name)}&tn=${encodeURIComponent(note)}&am=${encodeURIComponent(amount)}&cu=${encodeURIComponent(currency)}`;
+
+            // Open the UPI deep link
+            window.location.href = upiLink;
+        });
+    </script>
 </body>
 </html>
